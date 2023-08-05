@@ -1,5 +1,7 @@
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
+const discordd.jss = require("discordd.jss");
+
 const { Client, Intents, Collection } = require("discord.js");
 const client = new Client({
     intents: [
